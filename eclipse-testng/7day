@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name="SmokeTest"/>
+  <exclude name="Regression TestCase"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="com.example.testng.day7"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
